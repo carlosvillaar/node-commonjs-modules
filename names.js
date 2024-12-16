@@ -1,5 +1,8 @@
 function nameSurname(firstName, lastName){
-  return firstName + lastName
+  return {
+    name: firstName,
+    surname: lastName
+  }
 };
 
 module.exports = nameSurname;

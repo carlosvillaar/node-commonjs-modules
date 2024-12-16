@@ -1,9 +1,6 @@
 function hobbies (hobbyOne, hobbyeTwo, hobbieThree){
-  const hobbiesArray = [];
-  hobbiesArray.push(hobbyOne, hobbyeTwo, hobbieThree)
-  return {
-    hobbies: hobbiesArray
-  }
+  const hobbies = [hobbyOne, hobbyeTwo, hobbieThree];
+  return hobbies
 }
 
 module.exports = hobbies;
